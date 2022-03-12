@@ -1,0 +1,47 @@
+.logo img {
+    width: 84px;
+    height: 84px;
+    mix-blend-mode:multiply;
+    margin-right: auto;
+    
+}
+
+header {
+    background-color:cadetblue;
+    display: flex;
+    padding: 20px 0px 20px 100px;
+    align-items: center;
+   
+
+}
+
+.Header-link {
+
+    display: flex;
+    margin-left: auto;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'roboto', Arial;
+   
+
+}
+
+.Header-link ul{
+    display: flex;
+    justify-content:space-evenly;
+    list-style: none;
+}
+  
+.Header-link li{
+     flex: 0 0 auto;
+     margin: 10px;
+
+}
+
+ul {
+    padding: 0;
+}
+
+
+/* Hero Section next*/
+
