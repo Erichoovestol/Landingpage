@@ -1,3 +1,8 @@
+
+
+/* Header Section*/
+
+
 .logo img {
     width: 84px;
     height: 84px;
@@ -7,10 +12,12 @@
 }
 
 header {
-    background-color:cadetblue;
+    background-color:grey;
     display: flex;
     padding: 20px 0px 20px 100px;
     align-items: center;
+    border: 10px;
+    margin: 0px;
    
 
 }
@@ -21,7 +28,7 @@ header {
     margin-left: auto;
     font-size: 18px;
     padding: 10px;
-    font-family: 'roboto', Arial;
+    font-family: 'roboto'
    
 
 }
@@ -43,5 +50,110 @@ ul {
 }
 
 
-/* Hero Section next*/
+/* Hero Section */
+
+.info {
+    background-color: cadetblue;
+    display: flex;
+    padding: 20px
+
+    
+}
+
+.info-image img {
+    height: 250px;
+    width: 400px;
+    margin-left: auto;
+    margin-bottom: auto;
+}
+
+.title {
+    font-size: 48px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+}
+
+.text {
+font-size: 18px;
+font-family:'Trebuchet MS';
+}
+
+
+
+.left {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: flex-start;
+    align-items: center;
+
+    
+}
+
+.Sign-up-1 {
+    background-color: rgb(9, 165, 30);
+    border-radius: 8px;
+    color: black;
+    font-family: fantasy;
+    padding: 6px 14px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+/* About*/
+
+    
+    
+
+    .about {
+        display: flex; 
+        margin: auto;
+        flex-direction: column;
+        align-content: space-around;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 500px;
+        margin-top: 100px;
+       
+        
+    }
+
+    .about .graphic {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+        margin-bottom: 50px;
+     
+       
+        
+
+    }
+
+    .graphic img {box-sizing: border-box;
+    max: width 60px;;}
+
+   
+    .graphic{
+        
+        justify-content: space-around;
+        flex-shrink: 2;
+        
+    }
+
+        .graphic1 img{
+            margin-right: 20px;
+           border-image: 20 20 round;
+           border: 10px solid grey;
+           border-radius: 20px;
+
+         .graphic2 img{
+             margin-right: 20px;
+
+            }
+    
+
+        .graphic3 {
+            margin-right: 20px;
+        }
+
 
