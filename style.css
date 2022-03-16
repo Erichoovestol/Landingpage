@@ -130,7 +130,7 @@ font-family:'Trebuchet MS';
     }
 
     .graphic img {box-sizing: border-box;
-    max: width 60px;;}
+    }
 
    
     .graphic{
@@ -144,16 +144,39 @@ font-family:'Trebuchet MS';
             margin-right: 20px;
            border-image: 20 20 round;
            border: 10px solid grey;
-           border-radius: 20px;
+           border-radius: 20px;}
 
-         .graphic2 img{
-             margin-right: 20px;
-
-            }
-    
-
-        .graphic3 {
-            margin-right: 20px;
+        .graphic2 img  {
+            margin-right:20px;
+            border-image:20 20 round;
+            border: 10px solid grey;
+            border-radius: 20px;
+            margin-right: 10px;
         }
 
+        .graphic3 img {
+            margin-right:20px;
+            border-image:20 20 round;
+            border: 10px solid grey;
+            border-radius: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
 
+        }
+
+        .graphic4 img {
+            margin-right:20px;
+            border-image:20 20 round;
+            border: 10px solid grey;
+            border-radius: 20px;
+        }
+
+        .about-title{
+            text-align: center;
+        font-size: 36px;
+        font-weight: 900;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            
+        }
+
+        /* Testimonial*/
